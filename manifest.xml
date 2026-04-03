@@ -3,7 +3,7 @@
     <!-- remote list -->
     <remote name="lineageos"
         fetch="https://github.com/LineageOS"
-        revision="lineage-20.0"
+        revision="lineage-20"
     />
     <remote name="emredemirn"
         fetch="https://github.com/EmreDemirn-Repos"
