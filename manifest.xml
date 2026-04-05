@@ -19,13 +19,13 @@
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common-s" remote="emredemirn"/>
-    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="emredemirn"/>
+    <project path="vendor/xiaomi/mt6768-common" name="hannahmontanadeving/proprietary_vendor_xiaomi_mt6768-common" remote="github" revision="lineage-20"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="emredemirn" revision="lineage-20-upstream"/>
 
     <!-- hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
+    <project path="hardware/mediatek" name="7jari/android_hardware_mediatek" remote="github" revision="lineage-20"/>
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos"/>
 
 </manifest>
