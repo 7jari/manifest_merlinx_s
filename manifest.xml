@@ -12,14 +12,14 @@
     
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx-s" remote="emredemirn" revision="lineage-20-latest"/>
-    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="emredemirn" revision="lineage-20-latest"/>
+    <project path="vendor/xiaomi/merlinx" name="vendor_merlinx" remote="emredemirn"/>
 
     <!-- device -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"/>
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common-s" remote="emredemirn"/>
-    <project path="vendor/xiaomi/mt6768-common" name="hannahmontanadeving/proprietary_vendor_xiaomi_mt6768-common" remote="github" revision="lineage-20"/>
+    <project path="vendor/xiaomi/mt6768-common" name="vendor_mt6768-common" remote="emredemirn"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="emredemirn" revision="lineage-20-upstream"/>
