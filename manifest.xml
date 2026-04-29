@@ -22,7 +22,7 @@
     <project path="vendor/xiaomi/mt6768-common" name="vendor_mt6768-common" remote="emredemirn"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="Jbub5/android_kernel_xiaomi_mt6768-s" remote="github" revision="hello-moto+conn+++"/>
+    <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="emredemirn" revision="lineage-20-sound"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
