@@ -11,7 +11,7 @@
     />
 
     <!-- keys -->
-    <project name="7jari/vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" revision="lineage-21.0">
+    <project name="7jari/vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" remote="github" revision="lineage-21.0">
       <linkfile src="keys.mk" dest="vendor/extra/product.mk"/>
     </project>
 
