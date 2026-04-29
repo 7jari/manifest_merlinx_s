@@ -27,4 +27,8 @@
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="e6341a45e5d4439c25decca70ad886370aee548c"/>
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="e5a9512985cc84c969fda70312e64f881e55fbce"/>
 
+    <!-- yaoyoro dng sdk -->
+    <remove-project path="external/dng_sdk" />
+    <project name="yaoyoro-pj/android_external_dng_sdk" remote="github" path="external/dng_sdk" revision="lineage-21.0" groups="pdk"/>
+
 </manifest>
