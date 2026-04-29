@@ -14,7 +14,7 @@
     <project path="vendor/xiaomi/merlinx" name="vendor_merlinx" remote="emredemirn"/>
 
     <!-- device -->
-    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="18632d849e77ba21f06f5c9d0c32fbf7093152f4"/>
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="850b3d36fd4856508dab263042ea5450db15c2ee"/>
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common-s" remote="emredemirn" revision="lineage-21"/>
