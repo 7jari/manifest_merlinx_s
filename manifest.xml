@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- remote list -->
-    <remote name="lineageos"
-        fetch="https://github.com/LineageOS"
-        revision="lineage-20"
-    />
     <remote name="emredemirn"
         fetch="https://github.com/EmreDemirn-Repos"
         revision="lineage-20"
@@ -15,17 +11,17 @@
     <project path="vendor/xiaomi/merlinx" name="vendor_merlinx" remote="emredemirn"/>
 
     <!-- device -->
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"/>
+    <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="18632d849e77ba21f06f5c9d0c32fbf7093152f4"/>
 
     <!-- commons -->
-    <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common-s" remote="emredemirn"/>
+    <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common-s" remote="emredemirn" revision="lineage-21"/>
     <project path="vendor/xiaomi/mt6768-common" name="vendor_mt6768-common" remote="emredemirn"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="emredemirn" revision="lineage-20-sound"/>
 
     <!-- hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos"/>
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="e6341a45e5d4439c25decca70ad886370aee548c"/>
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="e5a9512985cc84c969fda70312e64f881e55fbce"/>
 
 </manifest>
