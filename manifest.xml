@@ -5,6 +5,9 @@
         fetch="https://github.com/EmreDemirn-Repos"
         revision="lineage-20"
     />
+
+    <!-- keys -->
+    <project name="7jari/vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" revision="lineage-21.0"/>
     
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx-s" remote="emredemirn" revision="lineage-20-latest"/>
