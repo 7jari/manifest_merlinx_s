@@ -31,7 +31,7 @@
     <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="mt6768-s"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="Jbub5/android_kernel_xiaomi_mt6768-s" remote="github" revision="kt-moto-lancerlin_21b+camera"/>
+    <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="nyari" revision="kt-moto-lancerlin-22b"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
