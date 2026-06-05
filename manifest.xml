@@ -21,14 +21,14 @@
 
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="pe_device_xiaomi_merlinx-s" remote="nyari"/>
-    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="mt6768-s"/>
+    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="nyari" revision="lineage-20"/>
 
     <!-- device -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"/>
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="pe_device_xiaomi_mt6768-common-s" remote="nyari"/>
-    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="mt6768-s"/>
+    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="nyari" revision="lineage-20"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="nyari" revision="kt-moto-lancerlin-22b"/>
