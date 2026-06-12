@@ -5,10 +5,6 @@
         fetch="https://github.com/LineageOS"
         revision="lineage-20"
     />
-    <remote name="mt6768-s"
-        fetch="https://github.com/mt6768-S"
-        revision="lineage-20"
-    />
     <remote name="nyari"
         fetch="https://github.com/Redmi-MT6768-Nyari"
         revision="thirteen"
@@ -35,6 +31,5 @@
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos"/>
 
 </manifest>
