@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- remote list -->
-    <remote name="lineageos"
-        fetch="https://github.com/LineageOS"
-        revision="lineage-20"
-    />
     <remote name="nyari"
         fetch="https://github.com/Redmi-MT6768-Nyari"
         revision="fourteen"
@@ -20,7 +15,7 @@
     <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="nyari" revision="lineage-20"/>
 
     <!-- device -->
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"/>
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel-uma"/>
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="pe_device_xiaomi_mt6768-common-s" remote="nyari"/>
@@ -30,6 +25,6 @@
     <project path="kernel/xiaomi/mt6768" name="mt6768-S/android_kernel_xiaomi_mt6768-vr" remote="github" revision="kt-moto-lancerlin-22d+++"/>
 
     <!-- hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
+    <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel-uma"/>
 
 </manifest>
