@@ -7,7 +7,7 @@
     />
     <remote name="nyari"
         fetch="https://github.com/Redmi-MT6768-Nyari"
-        revision="thirteen"
+        revision="fourteen"
     />
 
     <!-- keys -->
@@ -24,10 +24,10 @@
 
     <!-- commons -->
     <project path="device/xiaomi/mt6768-common" name="pe_device_xiaomi_mt6768-common-s" remote="nyari"/>
-    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="nyari" revision="lineage-20"/>
+    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="nyari"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768-s" remote="nyari" revision="kt-moto-lancerlin-22b"/>
+    <project path="kernel/xiaomi/mt6768" name="mt6768-S/android_kernel_xiaomi_mt6768-vr" remote="github" revision="kt-moto-lancerlin-22d+++"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
