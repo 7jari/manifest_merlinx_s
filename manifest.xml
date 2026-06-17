@@ -12,7 +12,7 @@
 
     <!-- merlinx -->
     <project path="device/xiaomi/merlinx" name="pe_device_xiaomi_merlinx-s" remote="nyari"/>
-    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="nyari" revision="lineage-20"/>
+    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="nyari"/>
 
     <!-- device -->
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel-uma"/>
@@ -22,7 +22,7 @@
     <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="nyari"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="mt6768-S/android_kernel_xiaomi_mt6768-vr" remote="github" revision="kt-moto-lancerlin-22d+++"/>
+    <project path="kernel/xiaomi/mt6768" name="Jbub5/android_kernel_xiaomi_mt6768-s" remote="github" revision="kernel-tree-6"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel-uma"/>
