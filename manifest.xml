@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="nyari"
-        fetch="https://github.com/Redmi-MT6768-Nyari"
-        revision="fourteen"
-    />
 
     <!-- keys -->
     <project name="7jari/vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" remote="github" revision="lineage-21.0">
@@ -11,18 +7,18 @@
     </project>
 
     <!-- merlinx -->
-    <project path="device/xiaomi/merlinx" name="pe_device_xiaomi_merlinx-s" remote="nyari"/>
-    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx-s" remote="nyari"/>
+    <project path="device/xiaomi/merlinx" name="device_xiaomi_merlinx" remote="pixel-uma"/>
+    <project path="vendor/xiaomi/merlinx" name="vendor_xiaomi_merlinx" remote="pixel-uma"/>
 
     <!-- device -->
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel-uma"/>
 
     <!-- commons -->
-    <project path="device/xiaomi/mt6768-common" name="pe_device_xiaomi_mt6768-common-s" remote="nyari"/>
-    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common-s" remote="nyari"/>
+    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-uma"/>
+    <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="pixel-uma"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="Jbub5/android_kernel_xiaomi_mt6768-s" remote="github" revision="kernel-tree-6"/>
+    <project path="kernel/xiaomi/mt6768" name="LineageOS/android_kernel_xiaomi_mt6768" remote="github" revision="lineage-23.2"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel-uma"/>
