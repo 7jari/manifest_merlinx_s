@@ -18,7 +18,7 @@
     <project path="vendor/xiaomi/mt6768-common" name="vendor_xiaomi_mt6768-common" remote="pixel-uma"/>
 
     <!-- kernel source -->
-    <project path="kernel/xiaomi/mt6768" name="mt6768-S/android_kernel_xiaomi_mt6768" remote="github" revision="lineage-20v2"/>
+    <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-uma"/>
 
     <!-- hardware -->
     <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel-uma"/>
