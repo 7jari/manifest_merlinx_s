@@ -3,11 +3,15 @@
     <!-- remote list -->
     <remote name="lineageos"
         fetch="https://github.com/LineageOS"
-        revision="lineage-23.2"
+        revision="lineage-24.0"
     />
     <remote name="muppet"
         fetch="https://github.com/TheMuppets"
-        revision="lineage-23.2"
+        revision="lineage-24.0"
+    />
+    <remote name="nyari"
+        fetch="https://github.com/Redmi-MT6768-Nyari"
+        revision="seventeen"
     />
 
     <!-- keys -->
@@ -16,21 +20,22 @@
     </project>
 
     <!-- merlinx -->
-    <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="lineageos"/>
+    <project path="device/xiaomi/merlinx" name="yaap_device_xiaomi_merlinx" remote="nyari"/>
     <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="muppet"/>
 
     <!-- device -->
+    <remove-project path="device/mediatek/sepolicy_vndr"/>
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineageos"/>
 
     <!-- commons -->
-    <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="lineageos"/>
+    <project path="device/xiaomi/mt6768-common" name="yaap_device_xiaomi_mt6768-common" remote="nyari"/>
     <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="muppet"/>
 
     <!-- kernel source -->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="lineageos"/>
 
     <!-- hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineageos"/>
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos"/>
+    <project path="hardware/mediatek" name="yaap_hardware_mediatek" remote="nyari"/>
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap"/>
 
 </manifest>
