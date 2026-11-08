@@ -37,5 +37,7 @@
     <!-- hardware -->
     <project path="hardware/mediatek" name="yaap_hardware_mediatek" remote="nyari"/>
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap"/>
+    <remove-project path="hardware/lineage/compat"/>
+    <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineageos"/>
 
 </manifest>
