@@ -43,4 +43,11 @@
     <remove-project path="hardware/interfaces"/>
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lineageos"/>
 
+    <!-- soong fix -->
+    <remove-project path="build/soong"/>
+    <project path="build/soong" name="yaap-17-stone/build_soong" remote="github" revision="seventeen">
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
 </manifest>
