@@ -50,4 +50,8 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- no gapps -->
+    <remove-project path="vendor/google/gms"/>
+    <remove-project path="vendor/google/pixel"/>
+
 </manifest>
